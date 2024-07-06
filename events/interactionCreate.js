@@ -1255,7 +1255,7 @@ if(interaction.customId === 'giriscikis'){
 		
         if(interaction.customId === `ticketnasilacilir_everyone`) {
           const embed = new Discord.EmbedBuilder()
-          .setAuthor({ name: "Rimuru Destek Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
+          .setAuthor({ name: "Abradin Destek Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
           .setTitle("・Destek talebi nasıl oluşturabilirsin.")
           .setDescription("**Destek Talebi Oluştur** butonuna tıkladıktan sonra karşına bir form gelecektir. O formu doldurduktan sonra destek talebin başarılı bir şekilde oluşturulacaktır.")
           .setImage(`https://cdn.discordapp.com/attachments/1235347548873425027/1235523499582296084/image.png?ex=6634ae6d&is=66335ced&hm=c9b678963889765b82be76868f9f40e5dc6a85425e7badb843d91caa85ac07d3&`)
